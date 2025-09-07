@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Alumni Management System
 
 A comprehensive React.js-based Alumni Management System built with Material-UI, featuring role-based authentication, event management, alumni directory, job postings, and more.
@@ -141,8 +141,4 @@ npm run build
 2. Configure build settings (build command: `npm run build`, output: `dist`)
 3. Deploy the `dist` folder
 
-## 📝 License
 
-This project is open source and available under the MIT License.
-=======
->>>>>>> 0355173282c4d148d67c55192778f9a5c34e5d9f

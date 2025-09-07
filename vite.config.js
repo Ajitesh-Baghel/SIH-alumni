@@ -18,6 +18,7 @@ export default defineConfig({
       '@contexts': resolve(__dirname, './src/contexts'),
       '@assets': resolve(__dirname, './src/assets'),
       '@services': resolve(__dirname, './src/services'),
+      '@data': resolve(__dirname, './src/data'),
     },
   },
 })

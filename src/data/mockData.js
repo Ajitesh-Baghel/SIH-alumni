@@ -348,6 +348,24 @@ export const mockDashboardStats = {
   eventAttendanceRate: 78
 };
 
+// Engagement Data (needed for Dashboard line chart)
+// Dashboard engagement chart data
+export const mockEngagementData = [
+  { month: "Jan", engagement: 40 },
+  { month: "Feb", engagement: 55 },
+  { month: "Mar", engagement: 60 },
+  { month: "Apr", engagement: 70 },
+  { month: "May", engagement: 65 },
+  { month: "Jun", engagement: 80 },
+  { month: "Jul", engagement: 75 },
+  { month: "Aug", engagement: 90 },
+  { month: "Sep", engagement: 85 },
+  { month: "Oct", engagement: 95 },
+  { month: "Nov", engagement: 100 },
+  { month: "Dec", engagement: 110 },
+];
+
+
 // Department and batch data
 export const departments = [
   'Computer Science',
@@ -393,6 +411,7 @@ export const eventTypes = [
   'other'
 ];
 
+// Default export
 export default {
   mockAlumni,
   mockEvents,
@@ -401,8 +420,10 @@ export default {
   mockGalleryItems,
   mockNotifications,
   mockDashboardStats,
+  mockEngagementData,
   departments,
   graduationYears,
   jobCategories,
-  eventTypes
+  eventTypes,
 };
+
